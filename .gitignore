@@ -1,0 +1,14 @@
+# Pycache
+__pycache__
+/Mensuration/__pycache__
+/MeanMedianMode/__pycache__
+/SortingAlgorithms/__pycache__
+
+# Other Folders and Files
+/Lib
+/Include
+/Scripts
+pyvenv.cfg
+
+# ini files
+*.ini
