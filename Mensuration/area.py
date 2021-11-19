@@ -2,12 +2,12 @@ from math import pi
 
 
 def square(s):
-    print(s*s)
+    return s*s
 
 
 def rectangle(l, b):
-    print(l*b)
+    return l*b
 
 
 def circle(r):
-    print(2*pi*(r**2))
+    return 2*pi*(r**2)

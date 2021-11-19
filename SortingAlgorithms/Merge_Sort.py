@@ -42,8 +42,5 @@ def printList(arr):
 
 
 def Merge_Sort(arr):
-    print("Given array is", end="\n")
-    printList(arr)
-    mergeSort(arr)
     print("Sorted array is: ", end="\n")
     printList(arr)

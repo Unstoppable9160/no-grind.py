@@ -6,14 +6,14 @@ def prettify(link):
     """prettify function in bs4"""
     website = requests.get(link)
     soup = BeautifulSoup(website.content, 'html.parser')
-    print(soup.prettify())
+    return soup.prettify()
 
 
 def text(link):
     """Get all text from link"""
     website = requests.get(link)
     soup = BeautifulSoup(website.content, 'html.parser')
-    print(soup.text)
+    return soup.text
 
 
 def find_tag(link, tag="h2"):
@@ -22,4 +22,4 @@ def find_tag(link, tag="h2"):
     soup = BeautifulSoup(website.content, 'html.parser')
     tags = soup.find_all(tag)
     for soups in tags:
-        print(soups.string)
+        return soups.string
