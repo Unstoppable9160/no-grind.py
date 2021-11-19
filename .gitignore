@@ -9,6 +9,7 @@ __pycache__
 /Include
 /Scripts
 pyvenv.cfg
+test.py
 
 # ini files
 *.ini
