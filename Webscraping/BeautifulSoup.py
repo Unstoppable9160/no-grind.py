@@ -3,7 +3,7 @@ import requests
 
 
 def prettify(link):
-    """prettify function in bs4"""
+    """Returns website as string"""
     website = requests.get(link)
     soup = BeautifulSoup(website.content, 'html.parser')
     return soup.prettify()
